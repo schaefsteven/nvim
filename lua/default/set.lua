@@ -19,13 +19,13 @@ vim.opt.scrolloff = 8
 -- Tab width
 -- maybe investigate retab in the future?
 -- Tabstop: Number of spaces that a <Tab> in the file counts for.
-vim.opt.tabstop = 4
+vim.opt.tabstop = 2
 -- Soft Tabstop: Number of spaces that a <Tab> counts for while performing editing
 -- operations, like inserting a <Tab> or using <BS>.
-vim.opt.softtabstop = 4
+vim.opt.softtabstop = 2
 -- Shiftwidth: Number of spaces to use for each step of (auto)indent.  Used for
 --  |'cindent'|, |>>|, |<<|, etc.
-vim.opt.shiftwidth = 4
+vim.opt.shiftwidth = 2
 -- Expandtab: In insert mode, replace tabs with spaces
 vim.opt.expandtab = true
 
