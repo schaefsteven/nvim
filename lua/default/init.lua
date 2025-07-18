@@ -1,3 +1,5 @@
 require("default.plugins")
+require("default.plugin-config.treesitter")
 require("default.remap")
 require("default.set")
+require("default.colors")
