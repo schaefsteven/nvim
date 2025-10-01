@@ -16,6 +16,11 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
   -- My plugins here
 
+  -- vim-tmux-navigator
+  use {
+    'christoomey/vim-tmux-navigator',
+  }
+
   -- Telescope
   use {
     'nvim-telescope/telescope.nvim', branch = '0.1.8',
